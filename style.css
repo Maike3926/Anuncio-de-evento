@@ -1,0 +1,130 @@
+@font-face {
+    font-family: playfair;
+    src: url(./fonte/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: anton;
+    src: url(./fonte/Anton/Anton-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: red 1px soli
+}
+
+header {
+    display: flex;
+    padding: 10px 0px;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    height: 115px;
+
+}
+
+header img {
+    height: 120px;
+    border-right: white 1px solid;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+header div p {
+    color: white;
+    font-family: anton;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./imagem/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    filter: grayscale(50%);
+    background-position: center center;
+    width: 100%;
+    height: 980px;
+}
+
+.principal img {
+    height: 350px;
+}
+
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.apresentacao h1 {
+    font-family: playfair;
+    font-size: 70px;
+    color: white;
+}
+
+.apresentacao button {
+    padding: 15px;
+    width: 250px;
+    cursor: wait;
+    /*pegadinha do malandro <3*/
+    border: 0;
+    color: #ffffff;
+    background: linear-gradient(to right,
+            #000000, #3f3f3f);
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: anton;
+    letter-spacing: 1.6px;
+    font-size: 25px;
+
+}
+
+.apresentacao button:hover {
+    background: linear-gradient(to right,
+            #ff33aa,
+            #ffcc33,
+            #33cc33,
+            #33cccc,
+            #3399ff);
+}
+
+.conteudo {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 30px;
+    background-image: url(./imagem/background2.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: center center;
+}
+
+.conteudo a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.conteudo a:hover {
+    scale: 1.20;
+}
+
+.conteudo a img{
+    height: 250px;
+}
+
