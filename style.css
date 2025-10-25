@@ -11,7 +11,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: red 1px soli
 }
 
 header {
@@ -104,7 +103,7 @@ header div p {
 
 .conteudo {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     gap: 30px;
     background-image: url(./imagem/background2.jpg);
@@ -124,7 +123,16 @@ header div p {
     scale: 1.20;
 }
 
-.conteudo a img{
+.conteudo a img {
     height: 250px;
 }
 
+.rodape {
+    padding: 24px;
+    background-color: #050505;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: playfair;
+    font-size: 24px;
+    font-weight: 400;
+}
